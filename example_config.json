@@ -1,0 +1,15 @@
+{
+  "SETTINGS_DIR": "./settings",
+  "TELEGRAM_API_TOKEN": "API TOKEN",
+  "TELEGRAM_CHAT_ID": "CHAT ID WHERE POSTS APPEARS",
+  "INSTAGRAM": [
+    {
+      "USERNAME": "Account1",
+      "PASSWORD": "Pass"
+    },
+    {
+      "USERNAME": "Account2",
+      "PASSWORD": "Pass"
+    }
+  ]
+}
