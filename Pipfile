@@ -6,13 +6,15 @@ verify_ssl = true
 [dev-packages]
 pytest = "*"
 ipdb = "*"
+pre-commit = "*"
+shiv = "*"
+invoke = "*"
+bdist-wheel = "*"
+wheel = "*"
 
 [packages]
 python-telegram-bot = "*"
 instagram-private-api = {editable = true,git = "https://git@github.com/ping/instagram_private_api.git",ref = "1.5.7"}
-keyring = "*"
-invoke = "*"
-circus = "*"
 
 [requires]
 python_version = "3.7"
