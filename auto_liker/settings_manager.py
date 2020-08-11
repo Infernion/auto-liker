@@ -34,8 +34,7 @@ class SettingsManager:
 
         with open(self.setting_path, "r") as file_data:
             logging.debug(f"Getting settings for {self.setting_file_name}.")
-            cached_settings = json.load(file_data, object_hook=from_json)
-            return cached_settings
+            return json.load(file_data, object_hook=from_json)
 
 
 def to_json(python_object):
